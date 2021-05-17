@@ -12,10 +12,11 @@ namespace persistenciaAditiva
             int c = x;
 
             do
-                
+
             {
                 x = c;
                 y = 0;
+
                 while (x / 10 >= 1)
                 {
                     y += x % 10;
